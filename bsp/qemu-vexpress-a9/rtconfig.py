@@ -10,7 +10,7 @@ if os.getenv('RTT_CC'):
 
 if  CROSS_TOOL == 'gcc':
     PLATFORM    = 'gcc'
-    EXEC_PATH   = '/opt/gcc-arm-none-eabi-4_8-2014q1_gri/bin'
+    EXEC_PATH   = '/home/xtx/gcc-arm-none-eabi-5_4-2016q3/bin/'
 elif CROSS_TOOL == 'keil':
     PLATFORM    = 'armcc'
     EXEC_PATH   = 'C:/Keil'
