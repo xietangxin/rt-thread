@@ -53,4 +53,4 @@ int thread_init()
     return 0;
 }
 
-FINSH_FUNCTION_EXPORT(thread_init, init 2 thread);
+//FINSH_FUNCTION_EXPORT(thread_init, init 2 thread);
