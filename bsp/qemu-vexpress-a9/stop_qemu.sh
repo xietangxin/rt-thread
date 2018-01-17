@@ -1,4 +1,6 @@
 #!/bin/bash
-pid=`ps -aux | grep "sudo ./qemu-nographic.sh"  | head -1 | awk '{printf $2}'`
-#echo $pid
-kill -9 $pid
+for pid in `ps -aux | grep qemu  | awk '{printf $2"\n"}'`
+do
+    echo  " will kill process $pid"
+    sudo kill -9 $pid
+done
