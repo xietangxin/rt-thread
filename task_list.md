@@ -4,13 +4,13 @@
 - [x] 任务间同步及通信
 - [x] 内存管理
 - [x] I/O设备管理
-- [  ] 异常与中断
-- [  ] 应用模块
-- [  ] finsh shell 
-- [  ] 文件系统
-- [  ] LWIP -轻型TCP/IP协议栈
-- [  ] LWIP-IPV6 支持
-- [  ] POSIX 接口
+- [ ] 异常与中断
+- [ ] 应用模块
+- [ ] finsh shell 
+- [ ] 文件系统
+- [ ] LWIP -轻型TCP/IP协议栈
+- [ ] LWIP-IPV6 支持
+- [ ] POSIX 接口
 
 注：
 
