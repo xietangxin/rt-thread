@@ -6,9 +6,9 @@
 - [x] I/O设备管理
 - [ ] 异常与中断
 - [ ] 应用模块
-- [ ] finsh shell 
-- [ ] 文件系统
-- [ ] LWIP -轻型TCP/IP协议栈
+- [x] finsh shell 
+- [x] 文件系统
+- [x] LWIP -轻型TCP/IP协议栈
 - [ ] LWIP-IPV6 支持
 - [ ] POSIX 接口
 
