@@ -45,4 +45,4 @@ int rtthread_init()
     return 0;
 }
 
-//FINSH_FUNCTION_EXPORT(rtthread_init, create 2 thread test);
+FINSH_FUNCTION_EXPORT(rtthread_init, create 2 thread test);
