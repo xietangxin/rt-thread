@@ -3,7 +3,7 @@ Import('rtconfig')
 from building import *
 
 cwd     = GetCurrentDir()
-src     = Glob('*.c') + Glob('*.cpp') + Glob("Thread_demo/*.c");
+src     = Glob('*.c') + Glob('*.cpp') + Glob("Thread_demo/*.c") + Glob("Pthread_demo/*.c");
 CPPPATH = [cwd, str(Dir('#'))]
 
 group = DefineGroup('Applications', src, depend = [''], CPPPATH = CPPPATH)
